@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { useAmp } from 'next/amp';
+import { withAmp, useAmp } from 'next/amp';
 
 import Page from '../../components/page';
 import Footer from '../../components/footer';
@@ -17,7 +17,7 @@ import CTA from '../../components/case-studies/hulu/cta';
 
 const title = 'Case Study - Hulu | Next.js';
 
-export default () => {
+export default withAmp(() => {
   const isAmp = useAmp();
 
   return (
@@ -164,4 +164,4 @@ export default () => {
       </style>
     </Page>
   );
-};
+});
