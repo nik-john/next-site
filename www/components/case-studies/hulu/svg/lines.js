@@ -63,6 +63,13 @@ export default () => (
             display: block;
           }
         }
+
+        @media screen and (min-width: 1440px) {
+          svg:first-child {
+            width: auto;
+            height: auto;
+          }
+        }
       `}
     </style>
   </>

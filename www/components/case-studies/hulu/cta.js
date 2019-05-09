@@ -5,7 +5,7 @@ export default () => (
         Find Out How Next.js Can <br /> Empower Your Team Today
       </h2>
       <a href="/learn">
-        <button>Read More</button>
+        <button>Learn More</button>
       </a>
     </div>
 

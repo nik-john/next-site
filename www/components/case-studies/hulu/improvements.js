@@ -292,7 +292,8 @@ const Improvements = () => (
         }
         @media screen and (min-width: 1800px) {
           section::before {
-            top: 36rem;
+            top: 52rem;
+            background: linear-gradient(155deg, transparent 50%, #1c1c1c 50%);
           }
         }
       `}
